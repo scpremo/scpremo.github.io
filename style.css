@@ -1,0 +1,220 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name:
+ * email:
+ */
+header{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: "Roboto Slab";
+    font-size:36px;
+    font-weight:100;
+    
+}
+
+.site-title a:link
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+    position: absolute;
+    top:50px;
+    left: 200px;
+}
+.site-title a:visited
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.filter-container{
+    background-color: #efefef;
+    position: absolute;
+    top:180px;
+    left:10px;
+    width:200px;
+    font-family: "Roboto";
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+.filter-input-container{
+    /* display: flex; */
+    padding-top: 10px;
+
+}
+.filter-container div{
+    font-family: "Roboto";
+}
+
+.filter-input-element
+{
+    padding-left: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    /* display: inline-block; */
+    padding-right: 5px;
+    border: 0 solid #c0c0c0;
+    border-radius: 1opx;
+}
+
+
+.conter{
+    font-size: 40px;
+}
+.filter-condition{
+    width: 200px;
+}
+.post{
+    display:flex;
+    border: 1px solid #eaeaea;
+    max-width: 321px;
+    height: 321px;
+    font-family: "Roboto";
+    border-radius: 5px;
+}
+.post img{
+    max-width: 299px;
+    max-height: 300px;
+    margin:10px
+}
+#filter-update-button{
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+#filter-update-button:hover{
+    background-color: #f3d0b5;
+    color: black;
+    cursor:pointer;
+}
+#posts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 240px;
+}
+.post{
+    height: 400px;
+    width: 400px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom:25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+.post a:link
+{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #f67d27;;
+    font-weight: bold;
+}
+.post a:visited
+{
+    text-decoration: none;
+    color: #f67d27;
+}
+.post a:link:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+    color: #f67d27;;
+}
+.post-price{
+    background-color: #efefef;
+    border: 1px solid #c0c0c0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15%;
+}
+#sell-something-button{
+    border-radius: 100%;
+    position:fixed;
+    bottom:50px;
+    right: 50px;
+    color:white;
+    background-color: #f67d27;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border: #f67d27;
+
+}
+#sell-something-button:hover{
+    border-radius: 100%;
+    position:fixed;
+    bottom:45px;
+    right: 45px;
+    color:white;
+    background-color: #f67d27;
+    height: 60px;
+    width: 60px;
+    font-size: 35px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor:pointer;
+
+}
+#filter-max-price{
+    padding-left: 10px;
+    width: 55px;
+    position: relative;
+    bottom: 21px;
+    left: 86px;
+    /* display: inline-block; */
+}
+#filter-min-price{
+    width: 55px;
+    position: relative;
+    left:8px
+}
+#filter-city{
+  width: 157px;  
+}
+.filter-input-container:has(#filter-city)
+{
+    position: relative;
+    bottom: 20px;
+}
+.filter-input-container:has(legend)
+{
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+    width: 200px;
+    
+}
+#filter-text
+{
+    width: 150px
+}
+body
+{
+    margin: 0px;
+    padding:0px;
+}
+.filter-fieldset{
+    border: 2px solid #b7b7b7;
+    
+}
+legend{
+    font-weight: 400;
+}
+span{
+    display: inline-block;
+}
