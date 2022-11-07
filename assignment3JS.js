@@ -114,6 +114,8 @@ updateButton.addEventListener("click",function(){
 sellSomething.addEventListener("click",function(){
     var sellSomethingModal = document.getElementById("sell-something-modal")
     sellSomethingModal.classList.remove ("hidden")
+    var backDrop = document.getElementById("modal-backdrop")
+    backDrop.classList.remove ("hidden")
 })
 
 
@@ -121,6 +123,10 @@ sellSomething.addEventListener("click",function(){
 function closeItemAdder(){
     
     var sellSomethingModal = document.getElementById("sell-something-modal")
+    //  <div id="modal-backdrop" class="hidden"></div>
+    
+    var backDrop = document.getElementById("modal-backdrop")
+    backDrop.classList.add ("hidden")
     postTextInput.value=""
     postPriceInput.value=""
     postPhotoInput.value=""
